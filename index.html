@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <title>Desafio Formulário</title>
+</head>
+
+<body>
+  <div>
+    <div>
+      <h1>Inscrição nos cursos FIC</h1>
+      <p>Prazo para responder: 05/05/2025</p>
+    </div>
+    <form action="">
+      <div>
+        <span>*</span>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <span>*</span>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <span>*</span>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino" required />
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="sexo" value="feminino" required />
+        <label for="feminino">Feminino</label>
+      </div>
+      <div>
+        <span>*</span>
+        <label for="course">Curso:</label>
+        <select id="course" name="course" required>
+          <option value="">Selecione um curso</option>
+          <option value="programacao">Programação</option>
+          <option value="design">Design</option>
+          <option value="marketing">Marketing Digital</option>
+        </select>
+      </div>
+      <div>
+        <label for="comments">Descreva o atendimento especial (opcional):</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+      </div>
+      <div>
+        <label for="terms">
+          <span>*</span>
+          <input type="checkbox" id="terms" name="terms" required />
+          Estou de acordo com o termos de serviço
+        </label>
+      </div>
+      <div>
+        <span>Os campos marcados com * são obrigatórios</span>
+      </div>
+      <div>
+        <button type="submit">Realizar inscrição</button>
+      </div>
+    </form>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
