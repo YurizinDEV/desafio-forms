@@ -1,2 +1,6 @@
-@import url(global.css);
-@import url(form.css);
+@import url(reset.css);
+@import url(header.css);
+@import url(form-structure.css);
+@import url(form-controls.css);
+@import url(form-groups.css);
+@import url(form-actions.css);

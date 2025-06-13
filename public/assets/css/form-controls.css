@@ -1,0 +1,34 @@
+/* Estilos para campos de formulário */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--white);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* Campos obrigatórios */
+span {
+    color: var(--error-color);
+}
+
+label span {
+    margin-right: 2px;
+}

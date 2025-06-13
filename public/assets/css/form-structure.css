@@ -1,0 +1,23 @@
+/* Estrutura básica do formulário */
+form {
+    width: 100%;
+}
+
+.form-block,
+.form-info,
+.form-submit {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.form-block {
+    background-color: var(--background-color);
+    box-shadow: var(--shadow);
+}
+
+.form-block:nth-child(-n+5) {
+    border-left: 8px solid var(--primary-color);
+    padding-left: 20px;
+}

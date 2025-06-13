@@ -1,0 +1,33 @@
+/* Área de informação e submissão */
+.form-info {
+    background-color: var(--white);
+    border-left: none !important;
+}
+
+.form-info span {
+    font-size: 14px;
+    color: var(--secondary-text);
+}
+
+.form-submit {
+    padding: 24px;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    margin-bottom: 0;
+    border-left: none !important;
+}
+
+/* Botão */
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button[type="submit"]:hover {
+    background-color: #0d65d9;
+}

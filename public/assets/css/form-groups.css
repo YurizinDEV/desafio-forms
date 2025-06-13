@@ -1,0 +1,29 @@
+/* Estilos para grupos de opções e checkbox */
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 0;
+}
+
+/* Checkbox */
+.checkbox-block {
+    border-left: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-block label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}

@@ -1,0 +1,27 @@
+/* Estilos do cabeçalho */
+.header {
+    background-color: var(--background-color);
+    padding: 24px;
+    position: relative;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.header-icon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.header p {
+    color: var(--secondary-text);
+    font-size: 14px;
+}
