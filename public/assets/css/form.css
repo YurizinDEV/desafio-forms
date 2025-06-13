@@ -1,18 +1,13 @@
-/* Estilos específicos para o formulário de inscrição */
-
-/* Container principal */
-body>div {
+.container {
     max-width: 650px;
     width: 100%;
-    background-color: #7c096d;
 }
 
 /* Cabeçalho do formulário */
-div>div:first-child {
+.header {
     background-color: var(--white);
-    border-top: 8px solid var(--primary-color);
-    border-radius: 8px 8px 0 0;
     padding: 24px;
+    position: relative;
 }
 
 h1 {
@@ -22,14 +17,19 @@ h1 {
     margin-bottom: 12px;
 }
 
-div>div:first-child p {
+.header-icon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.header p {
     color: var(--secondary-text);
     font-size: 14px;
 }
 
 /* Formulário */
 form {
-    background-color: var(--white);
     border-radius: 0 0 8px 8px;
     margin-top: 12px;
     padding: 24px;
@@ -37,13 +37,15 @@ form {
 
 /* Estilo para cada grupo de campo */
 form>div {
+    background-color: antiquewhite;
+    padding: 16px;
     margin-bottom: 24px;
     position: relative;
 }
 
 /* Campos com borda azul à esquerda */
 form>div:not(:last-child):not(:nth-last-child(2)) {
-    border-left: 4px solid var(--primary-color);
+    border-left: 8px solid var(--primary-color);
     padding-left: 20px;
 }
 

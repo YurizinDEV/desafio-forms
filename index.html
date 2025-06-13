@@ -11,33 +11,30 @@
 </head>
 
 <body>
-  <div>
-    <div>
+  <div class="container">
+    <div class="header">
       <h1>Inscrição nos cursos FIC</h1>
+      <img src="./public/assets/images/moon-star 1.svg" alt="Ícone lua e estrela" class="header-icon">
       <p>Prazo para responder: 05/05/2025</p>
     </div>
     <form action="">
       <div>
-        <span>*</span>
-        <label for="name">Nome:</label>
+        <label for="name"> <span>*</span>Nome:</label>
         <input type="text" id="name" name="name" required />
       </div>
       <div>
-        <span>*</span>
-        <label for="email">E-mail:</label>
+        <label for="email"> <span>*</span>E-mail:</label>
         <input type="email" id="email" name="email" required />
       </div>
       <div>
-        <span>*</span>
-        <label for="sexo">Sexo:</label>
+        <label for="sexo"> <span>*</span>Sexo:</label>
         <input type="radio" id="masculino" name="sexo" value="masculino" required />
         <label for="masculino">Masculino</label>
         <input type="radio" id="feminino" name="sexo" value="feminino" required />
         <label for="feminino">Feminino</label>
       </div>
       <div>
-        <span>*</span>
-        <label for="course">Curso:</label>
+        <label for="course"><span>* </span>Curso:</label>
         <select id="course" name="course" required>
           <option value="">Selecione um curso</option>
           <option value="programacao">Programação</option>
