@@ -1,9 +1,8 @@
 /* Estilos do cabeçalho */
 .header {
-    background-color: var(--background-color);
+    background-color: var(--form-background);
     padding: 24px;
     position: relative;
-    border-radius: 8px;
     margin-bottom: 12px;
     box-shadow: var(--shadow);
 }

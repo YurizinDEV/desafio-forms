@@ -9,11 +9,10 @@ form {
     width: 100%;
     padding: 16px;
     margin-bottom: 12px;
-    border-radius: 8px;
 }
 
 .form-block {
-    background-color: var(--background-color);
+    background-color: var(--form-background);
     box-shadow: var(--shadow);
 }
 
