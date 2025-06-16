@@ -1,0 +1,31 @@
+{
+  "inscricoes": [
+    {
+      "id": "3af1",
+      "name": "yuri",
+      "email": "teste@gmail.com",
+      "sexo": "masculino",
+      "course": "html-css",
+      "comments": "teste",
+      "terms": true
+    },
+    {
+      "id": "98ee",
+      "name": "Yuri ribeiro",
+      "email": "teste@gmail.com",
+      "sexo": "masculino",
+      "course": "design",
+      "comments": "teste",
+      "terms": true
+    },
+    {
+      "id": "5c01",
+      "name": "jkl",
+      "email": "teste@gmail.com",
+      "sexo": "masculino",
+      "course": "html-css",
+      "comments": "",
+      "terms": true
+    }
+  ]
+}
