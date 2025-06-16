@@ -18,6 +18,7 @@ h1 {
     position: absolute;
     top: 24px;
     right: 24px;
+    cursor: pointer;
 }
 
 .header p {

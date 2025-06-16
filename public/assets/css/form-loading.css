@@ -1,0 +1,6 @@
+/* Estilos para o botão submit em estado de carregamento */
+.form-submit button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.7;
+}

@@ -13,7 +13,8 @@ select {
     padding: 10px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    background-color: var(--white);
+    background-color: var(--input-background);
+    color: var(--text-color);
 }
 
 input[type="text"]:focus,
@@ -22,6 +23,11 @@ textarea:focus,
 select:focus {
     border-color: var(--primary-color);
     outline: none;
+}
+
+select option {
+    background-color: var(--input-background);
+    color: var(--text-color);
 }
 
 /* Campos obrigatórios */

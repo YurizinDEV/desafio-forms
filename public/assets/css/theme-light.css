@@ -1,0 +1,13 @@
+/* Tema Claro */
+:root {
+    --primary-color: #1a73e8;
+    --border-color: #dadce0;
+    --error-color: #d93025;
+    --text-color: #202124;
+    --secondary-text: #5f6368;
+    --background-color: #ffffff;
+    --form-background: #f7f7f7;
+    --input-background: #ffffff;
+    --white: #ffffff;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
