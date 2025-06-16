@@ -1,6 +1,6 @@
 /* Área de informação e submissão */
 .form-info {
-    background-color: var(--white);
+    background-color: var(--form-background);
     border-left: none !important;
 }
 
@@ -11,7 +11,7 @@
 
 .form-submit {
     padding: 24px;
-    background-color: var(--white);
+    background-color: var(--form-background);
     box-shadow: var(--shadow);
     margin-bottom: 0;
     border-left: none !important;
