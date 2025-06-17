@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 3000",
+    "server": "json-server --watch db.json --port 3010",
     "start": "concurrently \"npm run dev\" \"npm run server\""
   },
   "devDependencies": {
