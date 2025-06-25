@@ -1,7 +1,6 @@
 import '../public/assets/css/index.css';
 import { subscriptionFormSchema, type SubscriptionFormData } from './utils/form-schema';
 import { saveSubscription } from './services/api';
-import { getSubscriptions } from './services/api';
 
 const form = document.querySelector('form') as HTMLFormElement;
 const nameInput = document.querySelector('#name') as HTMLInputElement;

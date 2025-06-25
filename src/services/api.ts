@@ -1,6 +1,6 @@
 import type { SubscriptionFormData } from '../utils/form-schema';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://localhost:3010';
 
 export async function saveSubscription(data: SubscriptionFormData): Promise<any> {
     try {
